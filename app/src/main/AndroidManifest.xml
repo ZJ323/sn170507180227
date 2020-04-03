@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="cn.edu.sdwu.android.classroom.sn170507180227">
+
     <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,9 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
         </activity>
         <activity android:name=".Ch4Activity1">
+        </activity>
+        <activity android:name=".Ch4Activity2">
+        </activity>
+        <activity android:name=".ch4Activity3">
+
+        </activity>
+        <activity android:name=".Ch5Activity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
