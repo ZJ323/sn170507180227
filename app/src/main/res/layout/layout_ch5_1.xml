@@ -18,4 +18,20 @@
                   android:text="toast3"
                   android:onClick="toast3"
                   android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="NOTIFICATION"
+                android:onClick="notification"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="cancel_notification"
+                android:onClick="cancel_notification"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="alert_dialog"
+                android:onClick="alert_dialog"
+                android:layout_height="wrap_content"/>
+
 </LinearLayout>
