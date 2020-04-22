@@ -1,5 +1,6 @@
 package cn.edu.sdwu.android.classroom.sn170507180227;
 
+import android.app.NotificationManager;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -15,7 +16,6 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
 
 public class Ch6Activity1 extends AppCompatActivity {
 
@@ -73,6 +73,9 @@ public class Ch6Activity1 extends AppCompatActivity {
         } catch (Exception e) {
             Log.e(Ch6Activity1.class.toString(),e.toString());
         }
+            //使用NotificationManager取消通知
+            NotificationManager notificationManager=(NotificationManager)getSystemService(NOTIFICATION_SERVICE);
+            notificationManager.cancel(101);
     }
 
     @Override
